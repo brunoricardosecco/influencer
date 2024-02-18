@@ -61,7 +61,7 @@ export function CustomDialog({
                           </label>
                         </div>
                         <div className="flex items-center">
-                          <span className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-white bg-primary border rounded-s-lg">
+                          <span className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-white bg-primary border rounded-s-full">
                             URL
                           </span>
                           <div className="relative w-full">
@@ -70,7 +70,7 @@ export function CustomDialog({
                               type="text"
                               aria-describedby="helper-text-explanation"
                               className="bg-gray-50 border border-e-0 border-gray-300 text-primary   text-sm border-s-0 focus:ring-primary focus:border-primary block w-full p-2.5"
-                              value="https://influencer.mokthepoke.com.br/cleiton"
+                              value="https://influencer.mokthepoke.com.br/MariaClara"
                               readOnly
                               disabled
                             />
@@ -78,11 +78,11 @@ export function CustomDialog({
                           <button
                             data-tooltip-target="tooltip-website-url"
                             data-copy-to-clipboard-target="website-url"
-                            className="flex-shrink-0 z-10 inline-flex items-center py-3 px-4 text-sm font-medium text-center text-white bg-primary rounded-e-lg hover:bg-primary/90 focus:ring-4 focus:outline-none focus:ring-primary/60 border border-primary hover:border-primary/90"
+                            className="flex-shrink-0 z-10 inline-flex items-center py-3 px-4 text-sm font-medium text-center text-white bg-primary rounded-e-full hover:bg-primary/90 focus:ring-4 focus:outline-none focus:ring-primary/60 border border-primary hover:border-primary/90"
                             type="button"
                             onClick={() => {
                               navigator.clipboard.writeText(
-                                "https://influencer-five.vercel.app/cleiton"
+                                "https://influencer-five.vercel.app/MariaClara"
                               );
                             }}
                           >
@@ -143,7 +143,7 @@ export function CustomDialog({
                 <div className="mt-5 sm:mt-6">
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                    className="inline-flex w-full justify-center rounded-full bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
                     onClick={() => onClose(false)}
                   >
                     Fechar
