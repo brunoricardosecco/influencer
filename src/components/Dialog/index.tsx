@@ -37,9 +37,9 @@ export function CustomDialog({
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
                 <div>
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary">
                     <CheckIcon
-                      className="h-6 w-6 text-green-600"
+                      className="h-6 w-6 text-white"
                       aria-hidden="true"
                     />
                   </div>
@@ -69,7 +69,7 @@ export function CustomDialog({
                               id="website-url"
                               type="text"
                               aria-describedby="helper-text-explanation"
-                              className="bg-gray-50 border border-e-0 border-gray-300 text-primary   text-sm border-s-0 focus:ring-primary focus:border-primary block w-full p-2.5"
+                              className="bg-gray-50 border border-e-0 border-gray-300 text-gray-900   text-sm border-s-0 focus:ring-primary focus:border-primary block w-full p-2.5"
                               value="https://influencer.mokthepoke.com.br/MariaClara"
                               readOnly
                               disabled
