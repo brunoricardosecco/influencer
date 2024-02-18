@@ -6,7 +6,7 @@ const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function Influencer() {
   const onEnd = () => {
-    window.location.replace(
+    window.location.assign(
       "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
     );
   };
