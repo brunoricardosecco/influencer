@@ -13,7 +13,7 @@ export default function Influencer() {
   return (
     <div className="min-h-screen bg-primary flex flex-col  items-center py-8 md:py-24">
       <div className="min-h-max bg-primary flex-1 flex flex-col items-center">
-        <h1 className="text-4xl font-bold mb-1 md:mb-8 md:text-5xl text-center">
+        <h1 className="text-4xl font-bold mb-1 md:mb-8 md:text-5xl text-center text-white">
           E aí, Maria Clara!
         </h1>
         <ReactPlayer
@@ -24,7 +24,7 @@ export default function Influencer() {
           controls
         />
       </div>
-      <h1 className="font-berlim text-3xl md:text-6xl justify-self-end text-center">
+      <h1 className="font-berlim text-3xl md:text-6xl justify-self-end text-center text-white">
         MOK THE POKE
       </h1>
     </div>
